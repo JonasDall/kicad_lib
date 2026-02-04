@@ -13,6 +13,6 @@ Documentation: [DFRobot Wiki](https://wiki.dfrobot.com/Gravity:%20I2C%20Digital%
 ### Power_Conversion
 Electrical power conversions.
 #### DFR1015
-Purpose: Buck Converter Module  
+Description: Buck Converter Module  
 Manufacturer: DFRobot  
 Documentation: [DFRobot Store](https://www.dfrobot.com/product-2599.html)
