@@ -64,7 +64,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 -2.54) (xy -6.35 1.27)
+					(xy -6.35 1.27) (xy -6.35 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -99,9 +99,9 @@
 				)
 			)
 			(arc
-				(start -5.08 -3.81)
-				(mid -5.978 -3.438)
-				(end -6.35 -2.54)
+				(start -5.08 -8.89)
+				(mid -5.978 -8.518)
+				(end -6.35 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -123,9 +123,9 @@
 				)
 			)
 			(arc
-				(start 6.35 -2.54)
-				(mid 5.978 -3.438)
-				(end 5.08 -3.81)
+				(start 6.35 -7.62)
+				(mid 5.978 -8.518)
+				(end 5.08 -8.89)
 				(stroke
 					(width 0)
 					(type default)
@@ -136,7 +136,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -3.81) (xy -5.08 -3.81)
+					(xy 5.08 -8.89) (xy -5.08 -8.89)
 				)
 				(stroke
 					(width 0)
@@ -148,7 +148,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 1.27) (xy 6.35 -2.54)
+					(xy 6.35 1.27) (xy 6.35 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -170,6 +170,24 @@
 						)
 					)
 				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 -1.27 0)
+				(length 2.54)
+				(name "IN-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(number "2"
 					(effects
 						(font
@@ -179,7 +197,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 -2.54 0)
+				(at -8.89 -5.08 0)
 				(length 2.54)
 				(name "IN+"
 					(effects
@@ -188,7 +206,25 @@
 						)
 					)
 				)
-				(number "1"
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 -7.62 0)
+				(length 2.54)
+				(name "IN+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -206,7 +242,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -215,7 +251,25 @@
 				)
 			)
 			(pin power_out line
-				(at 8.89 -2.54 180)
+				(at 8.89 -1.27 180)
+				(length 2.54)
+				(name "OUT-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 8.89 -5.08 180)
 				(length 2.54)
 				(name "OUT+"
 					(effects
@@ -224,7 +278,25 @@
 						)
 					)
 				)
-				(number "3"
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 8.89 -7.62 180)
+				(length 2.54)
+				(name "OUT+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
