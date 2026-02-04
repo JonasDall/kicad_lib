@@ -7,15 +7,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "M"
-			(at 0 3.81 0)
+			(at 0 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "DFR1015"
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)

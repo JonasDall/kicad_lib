@@ -6,29 +6,28 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 0 0)
+		(property "Reference" "M"
+			(at 0.254 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "SEN0291"
+			(at 0.254 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Power_Measurement:SEN0291"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -62,6 +61,18 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy -3.81 -11.43) (xy 3.81 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(arc
 				(start -5.08 -2.54)
 				(mid -4.708 -1.642)
@@ -78,18 +89,6 @@
 				(start -3.81 -11.43)
 				(mid -4.708 -11.058)
 				(end -5.08 -10.16)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -11.43) (xy 3.81 -11.43)
-				)
 				(stroke
 					(width 0)
 					(type default)

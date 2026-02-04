@@ -1,6 +1,6 @@
 # KiCad library collection
 
-This repository contains my custom KiCad libraries for personal use in board-level projects.
+This repository contains my custom KiCad libraries for personal use in board-level projects. Symbol and Footprint libraries with matching names have sym+pretty pairs with the same name.
 
 ## Library Structure
 ### Power_Measurement
