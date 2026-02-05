@@ -138,89 +138,96 @@
 		(layer "F.SilkS")
 		(uuid "f20257c0-b4c6-4703-a80d-ae776dca2afd")
 	)
-	(fp_line
-		(start -11 14)
-		(end -11 -9)
-		(stroke
-			(width 0.05)
-			(type default)
+	(fp_text user "GND"
+		(at -0.5 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3ca7e2bb-28a1-4bee-a7ac-aebe8917b5bf")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
 		)
-		(layer "Edge.Cuts")
-		(uuid "55ae6d75-b34b-4063-b80a-97e28059c37d")
 	)
-	(fp_line
-		(start -7.5 -12.5)
-		(end 7.5 -12.5)
-		(stroke
-			(width 0.05)
-			(type default)
+	(fp_text user "GND"
+		(at -8 -7 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "442face3-ff0f-4a2e-b028-fb4e014365e9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
 		)
-		(layer "Edge.Cuts")
-		(uuid "59d41d31-bf6a-4a2e-90ba-f3bf7031a080")
 	)
-	(fp_line
-		(start 7.5 17.5)
-		(end -7.5 17.5)
-		(stroke
-			(width 0.05)
-			(type default)
+	(fp_text user "IN+"
+		(at 3.5 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "607c68a2-6c06-4baa-a6cb-b70eb7f2f606")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
 		)
-		(layer "Edge.Cuts")
-		(uuid "2a4ad0cc-e35a-4208-8458-89cc1f6afe64")
 	)
-	(fp_line
-		(start 11 -9)
-		(end 11 14)
-		(stroke
-			(width 0.05)
-			(type solid)
+	(fp_text user "SDA"
+		(at -8 -2 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9c9a82eb-34f6-4387-9534-49f63dc552b2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
 		)
-		(layer "Edge.Cuts")
-		(uuid "4f3ed359-af70-489a-a4e5-3fab129ebbe9")
 	)
-	(fp_arc
-		(start -11 -9)
-		(mid -9.974874 -11.474874)
-		(end -7.5 -12.5)
-		(stroke
-			(width 0.05)
-			(type default)
+	(fp_text user "IN-"
+		(at -4.5 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ba28a358-6211-47a4-846a-3978e9b38d26")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
 		)
-		(layer "Edge.Cuts")
-		(uuid "dd48a47c-e546-4ce1-b3c8-8bff22c226b2")
 	)
-	(fp_arc
-		(start -7.5 17.5)
-		(mid -9.974874 16.474874)
-		(end -11 14)
-		(stroke
-			(width 0.05)
-			(type default)
+	(fp_text user "VCC"
+		(at -8 -9.5 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bf39089d-19c5-49c0-918c-8ab71f3f5eae")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
 		)
-		(layer "Edge.Cuts")
-		(uuid "0c277b7d-b15a-44bb-8b99-e7e3bf72bd44")
 	)
-	(fp_arc
-		(start 7.5 -12.5)
-		(mid 9.974874 -11.474874)
-		(end 11 -9)
-		(stroke
-			(width 0.05)
-			(type default)
+	(fp_text user "SCL"
+		(at -8 -4.5 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c8760528-8b2b-4fdb-9939-8d422732a6c1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
 		)
-		(layer "Edge.Cuts")
-		(uuid "9c378f69-e0ed-403c-8d85-0fe72d9a0985")
-	)
-	(fp_arc
-		(start 11 14)
-		(mid 9.974874 16.474874)
-		(end 7.5 17.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "e3193962-c616-4cfc-9059-8e6ed38f0a34")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -14 0)
