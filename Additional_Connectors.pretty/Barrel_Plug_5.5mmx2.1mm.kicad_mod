@@ -129,7 +129,7 @@
 	)
 	(pad "1" thru_hole oval
 		(at -2.5 10 90)
-		(size 4 2)
+		(size 3.38 1.38)
 		(drill oval 3 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -137,11 +137,11 @@
 	)
 	(pad "2" thru_hole oval
 		(at 2.5 10 90)
-		(size 4 2)
+		(size 3.38 1.38)
 		(drill oval 3 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "90d90f6b-099e-4b50-bf53-ce4df5a4723e")
+		(uuid "28f2b9bf-7464-49d3-8391-39b6d6ad63c0")
 	)
 	(embedded_fonts no)
 )
