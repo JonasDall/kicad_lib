@@ -117,6 +117,47 @@
 		(layer "Edge.Cuts")
 		(uuid "bf0741e4-5663-43a9-99bd-eb4ae4ab3d09")
 	)
+	(fp_line
+		(start -8.5 29.5)
+		(end -8.5 22)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8a2a7031-bd76-4cf2-85ee-2d66455d76c4")
+	)
+	(fp_line
+		(start 8.5 22)
+		(end 8.5 29.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b5ebe393-8398-4001-ab1f-eb84c04fb60a")
+	)
+	(fp_line
+		(start 8.5 29.5)
+		(end -8.5 29.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9981b777-83f7-4395-9ac3-846c9e8501fc")
+	)
+	(fp_arc
+		(start -8.5 22)
+		(mid 0 3.988642)
+		(end 8.5 22)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f167d9c-0da5-4331-8071-62f9b769e05b")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
